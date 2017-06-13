@@ -1,0 +1,12 @@
+namespace Lottery
+{
+  using System;
+  using System.Collections;
+  
+  public class Lottery
+  {
+    public static int Numbers, EndRange;
+    //display titles and gets start values
+    public static void DisplayTitles()
+  }
+}
