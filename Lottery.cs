@@ -6,11 +6,11 @@ namespace Lottery
   public class Lottery
   {
     public static int Numbers, EndRange;
-    //display titles and gets start values
+    //display titles and gets start values(user interface)
     public static void DisplayTitles()
     {
-      EndRange = 0;
-      Numbers = 1;
+      EndRange = 0; //initialization of var.
+      Numbers = 1; // initialization of var.EndRange should be smaller than or equal to Numbers
       while(EndRange < Numbers)
       {
         System.Console.WriteLine("=============================");
